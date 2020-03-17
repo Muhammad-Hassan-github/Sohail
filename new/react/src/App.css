@@ -1,0 +1,358 @@
+* {
+    font-family: Raleway, sans-serif !important;
+    /* box-sizing: border-box !important; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+section{
+    padding-top: 20px;
+    /* height: 200px;
+    width:900px;
+    margin:0 auto; */
+}
+.logo{
+    font-size: 31px;
+    font-weight: 300;
+}
+.header {
+    background: red;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.header h1 {
+    margin: 0;
+}
+.header a {
+    color: white;
+}
+
+.contentArea {
+    max-width: 980px;
+    margin: 0 auto 40px;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.listArea {
+    border: 1px solid #666;
+    padding: 20px;
+}
+
+.leftPane {
+    float: left;
+    width: 65%;
+}
+
+.rightPane {
+    float: right;
+    width: 30%;
+}
+
+.leftPane,
+.rightPane {
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    min-height: 250px;
+}
+
+.testComponent {
+    background: #fff;
+    text-align: center;
+    color: orange;
+    padding: 20px
+}
+
+@media (min-width: 1040px) {
+    .bank {
+        margin: 0 200px !important;
+    }
+}
+
+.WithStyles\(ForwardRef\(TableCell\)\)-head-119 {
+    width: 130px !important;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 5px;
+    width: 360px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    height: 190px;
+    padding: 10px;
+}
+
+.cardHeader {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flex2 {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.MuiSvgIcon-root {
+    margin: -10px 0px;
+}
+
+.MuiButton-containedPrimary {
+    margin: 0px 3px !important;
+    float: right;
+}
+
+.cardCenter {
+    text-align: center;
+}
+
+@media (max-width: 446px) {
+    .cardHeader {
+        flex-direction: column;
+    }
+    .flex1 {
+        justify-content: center;
+    }
+    .flex2 {
+        justify-content: center;
+    }
+    .card {
+        height: auto;
+    }
+    .credits {
+        text-align: center !important;
+    }
+    .debits {
+        text-align: center;
+    }
+    .DC {
+        flex-direction: column;
+        margin-top: 0px !important;
+
+       
+
+    }
+}
+
+.links {
+    text-decoration: none!important;
+    color: #2f4f4f!important;
+    cursor: pointer;
+}
+
+.links h3 {
+    margin-top: -15px;
+}
+
+.DC {
+    text-align: right;
+    display: flex;
+    margin-top: 45px;
+
+}
+
+.DC span {
+    background-color: #b6b5b5;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 7px;
+}
+
+.credits {
+    flex: 1;
+    text-align: left;
+}
+
+.debits {
+    flex: 1;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form {
+    max-width: 600px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.modal {
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.formHeader {
+    min-height: 70px;
+    width: 600px;
+    background: #3f51b5;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    color: white;
+}
+
+.formContent {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    height: auto;
+    margin: 0 auto;
+    width: 560px;
+    background: white;
+    padding-bottom: 40px !important;
+    padding: 20px;
+}
+
+.formButton {
+    margin-top: 30px;
+}
+
+.formButton button {
+    margin: 5px 20px;
+}
+
+.MuiFormControl-fullWidth {
+    margin: 8px 0px !important;
+}
+
+.nav {
+    display: flex;
+    background: #3f51b5;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+
+}
+
+.navFlex1 {
+    flex: 1;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.navFlex2 {
+    flex: 1;
+}
+
+ul>li {
+    display: inline-block;
+}
+
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+@media (max-width: 864px) {
+ .nav{
+     flex-direction: column !important;
+ }   
+ .navFlex2 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.navFlex1{
+    padding-top: 10px !important;
+}
+}
+a{
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+
+}
+.WithStyles\(ForwardRef\(TableCell\)\)-body-82{
+    width: 150px;
+}
+.TableTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    background: #3f51b5;
+    color: white;
+    font-size: large;
+}
+.row:hover{
+    background: #f2f2f2;
+}
+.row_id{
+    color:blue !important;
+}
+.row_id:hover{
+    cursor: pointer;
+}
+.details{
+width: 700px;
+margin:0 auto;
+}
+.row1{
+    max-width:10px !important;
+    overflow: hidden !important;
+
+} 
+.account{
+    margin:0 auto;
+    max-width:800px;
+}
+.MuiTableCell-root{
+    padding: 10px !important;
+}
+.MuiIconButton-root{
+    padding: 5px !important;
+}
+.MuiTableCell-alignLeft{
+    text-align: center !important;
+}
+.transaction{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.swal-button{
+    color: #ffff;
+    background: #3f51b5;
+}
+.swal-button:hover{
+    color: #ffff;
+    background: #3f51b5 !important;
+}
+.preloader{
+display: flex;
+text-align: center;
+justify-content: center;
+margin: 0 auto;
+height: 100vh;
+align-items: center;
+}
